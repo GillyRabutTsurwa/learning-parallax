@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    height: 100%;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #777;
+}
+
+.pimg1, .pimg2,.pimg3, .pimg4 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.70;
+
+    background-attachment: fixed;
+}
+
+/* Fixed = parallax & scroll = normal. background-attachment: fixed est plus génial que j'avais cru */
+
+.pimg1 {
+    background-image: url(Images/image1.jpg);
+    min-height: 100vh;
+}
+
+.pimg2 {
+    background-image: url(Images/image2.jpg);
+    min-height: 40rem;
+}
+
+.pimg3 {
+    background-image: url(Images/image3.jpg);
+    min-height: 40rem;
+}
+
+.pimg4 {
+    background-image: url(Images/image4.jpg);
+    min-height: 40rem;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    
+    letter-spacing: 0.7rem;
+    font-size: 2.7rem;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.section {
+    text-align: center;
+    padding: 5rem 8rem;
+}
+
+.section-dark {
+    background-color: #282E34;
+    color: #DDD;
+}
+
